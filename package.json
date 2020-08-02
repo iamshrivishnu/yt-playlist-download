@@ -5,13 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Shrivishnu",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "youtube-playlist": "^1.0.4",
     "ytdl-core": "^3.2.0"
-  }
+  },
+  "devDependencies": {},
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshrivishnu/yt-playlist-download.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamshrivishnu/yt-playlist-download/issues"
+  },
+  "homepage": "https://github.com/iamshrivishnu/yt-playlist-download#readme"
 }
