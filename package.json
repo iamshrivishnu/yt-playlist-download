@@ -15,7 +15,6 @@
     "ytdl-core": "^3.2.0"
   },
   "devDependencies": {},
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamshrivishnu/yt-playlist-download.git"
