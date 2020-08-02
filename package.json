@@ -1,0 +1,17 @@
+{
+  "name": "youtube-playlist-downloader",
+  "version": "1.0.0",
+  "description": "The application helps to download videos from youtube playlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "Shrivishnu",
+  "license": "ISC",
+  "dependencies": {
+    "youtube-playlist": "^1.0.4",
+    "ytdl-core": "^3.2.0"
+  }
+}
